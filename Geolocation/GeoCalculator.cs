@@ -11,7 +11,7 @@ namespace Geolocation
     /// <summary>
     /// Various utility methods for calculating geographically-based values
     /// </summary>
-    public static class GeoCalculator
+    public static partial class GeoCalculator
     {
         private static double EarthRadiusInMiles = 3959.0;
         private static double EarthRadiusInNauticalMiles = 3440.0;
